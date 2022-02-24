@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Mont-Regular';
+  src: local('Mont-Regular'), url(./assets/fonts/FontsFree-Net-Mont1.ttf) format('woff');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
