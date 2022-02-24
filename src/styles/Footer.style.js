@@ -57,12 +57,19 @@ export const FooterRightBottom = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #C52326;
   color: #FFFFFF;
 `;
 
 export const FooterRightBottomText = styled.p`
-  width: 100%;
-  text-align: center;
+  margin-left: 4%;  
+  // width: 100%;
   font-weight: bold;
+`;
+
+export const Logo = styled.img`
+  margin-right: 3%;
+  // max-width: 60px;
+  height: 30px;
 `;

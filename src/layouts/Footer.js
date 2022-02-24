@@ -1,6 +1,6 @@
 import React from 'react'
 import FooterLeftImage from '../assets/images/footer_einstein.png';
-import { Button } from '../styles/ButtonMain.style';
+import LogoImg from '../assets/images/footer_logo.png'
 import {
   FooterContainer,
   FooterLeft,
@@ -11,7 +11,8 @@ import {
   FooterPhrase,
   FooterButton,
   FooterLeftBottomText,
-  FooterRightBottomText
+  FooterRightBottomText,
+  Logo
 } from '../styles/Footer.style'
 
 const Footer = () => {
@@ -38,6 +39,7 @@ const Footer = () => {
           <FooterRightBottomText>
             Perham, MN → Mexico City, MX → Flint Group
           </FooterRightBottomText>
+          <Logo src={LogoImg} alt='Footer logo'></Logo>
         </FooterRightBottom>
       </FooterContainer>
     </>

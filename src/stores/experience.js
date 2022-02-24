@@ -1,4 +1,4 @@
-export const experiences = [
+const experiences = [
   {
     category: 'Management',
     title: 'Project Manager',
@@ -70,3 +70,5 @@ export const experiences = [
     ],
   },
 ]
+
+export default experiences;

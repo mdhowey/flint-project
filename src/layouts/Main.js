@@ -1,14 +1,19 @@
 import React from 'react'
-import Card from '../components/Card';
-import { MainContainer } from '../styles/Main.style';
+import CardGrid from '../components/CardGrid';
+import {
+  MainContainer,
+  RecommendationsContainer
+} from '../styles/Main.style';
 
-const Main = () => {
-  return (
+const Main = (props) => {
+  return(
     <MainContainer>
-      <Card />
-      <Card />
+      <h2>What do his coworkers say?</h2>
+      <RecommendationsContainer>
+        <CardGrid recommendations={props.recommendations}/>
+      </RecommendationsContainer>
     </MainContainer>
-  );
+  )
 }
 
 export default Main

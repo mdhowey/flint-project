@@ -8,10 +8,11 @@ export const CardOuter = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin: 10px;
-  padding: 20px;
+  padding: 4% 5%;
   & h2 {
-    color: #C52326
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
   }
 `;
 
@@ -19,9 +20,14 @@ export const CardInner = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  padding: 20px;
   & p {
-    color: #143c3c;
+    color: #FFFFFF;
+    margin: 0 5px 20px 5px;
+    &.author {
+      font-weight: bold;
+    }
+    &.position {
+      font-style: italic;
+    }
   }
 `;

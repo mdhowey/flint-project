@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     title: 'EcomByJake',
     dates: '10/22 - Present',
@@ -24,3 +24,5 @@ export const projects = [
     technologies: 'Express, Node.js, MongoDB',
   },
 ]
+
+export default projects;
